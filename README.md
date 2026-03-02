@@ -54,6 +54,8 @@ Commands are designed to flow into each other, matching the PM workflow. After a
 
 All 8 plugins install automatically. You get both commands (`/discover`, `/strategy`, etc.) and skills.
 
+![Installing PM Skills in Claude Cowork](pm-skills-install.gif)
+
 For a full walkthrough, see [Claude Cowork: The Ultimate Guide for PMs](https://www.productcompass.pm/p/claude-cowork-guide).
 
 ### Claude Code (CLI)
