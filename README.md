@@ -53,7 +53,7 @@ The most powerful workflow to begin with:
 /start-project AI-powered meal planning app for busy parents
 ```
 
-This generates **15 comprehensive knowledge-base documents** in `NewProjectDetails/` — covering strategy, PRD, personas, competitive analysis, tech requirements, UI/UX guidelines, GTM, pricing, roadmap, and more. Windsurf uses these files as the source of truth when you later ask it to code and build the product.
+This generates **21 comprehensive knowledge-base documents** in `NewProjectDetails/` — covering strategy, PRD, personas, competitive analysis, business model, tech requirements, DB schema, API specification, project structure, UI/UX design system, metrics, GTM, growth, pricing, roadmap, risks, test plan, content marketing, and legal compliance. Windsurf uses these files as the source of truth when you later ask it to code, build, test, and market the product.
 
 ---
 

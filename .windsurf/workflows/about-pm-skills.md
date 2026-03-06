@@ -48,7 +48,7 @@ Workflows are invoked via `/slash-command` in Cascade. Each workflow chains one 
 
 
 ### Project Kickoff
-- `/start-project` — Analyze a project idea and generate a full knowledge base (15 docs) in `NewProjectDetails/`
+- `/start-project` — Analyze a project idea and generate a full knowledge base (21 docs) in `NewProjectDetails/` — strategy, PRD, personas, competitive analysis, tech requirements, DB schema, API spec, project structure, UI/UX, metrics, GTM, growth, pricing, roadmap, risks, test plan, content marketing, legal compliance
 
 ### Product Discovery
 - `/discover` — Full discovery cycle

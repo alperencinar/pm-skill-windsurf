@@ -22,7 +22,7 @@ You have access to a comprehensive Product Management skills library with 65 dom
 
 ## Key Workflows
 
-- `/start-project` — Full project analysis: generates 15 knowledge-base docs in `NewProjectDetails/`
+- `/start-project` — Full project analysis: generates 21 knowledge-base docs in `NewProjectDetails/`
 - `/discover` — Full discovery cycle: ideation → assumptions → experiments
 - `/strategy` — 9-section Product Strategy Canvas
 - `/write-prd` — Comprehensive PRD from an idea or problem
