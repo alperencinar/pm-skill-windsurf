@@ -1,21 +1,19 @@
 # Contributing
 
-PM Skills Marketplace is maintained by [Paweł Huryn](https://www.productcompass.pm) (pawel@productcompass.pm). Contributions are welcome — whether it's a bug fix, a typo, or a new skill idea.
+This is a Windsurf adaptation of the [PM Skills Marketplace](https://github.com/phuryn/pm-skills) originally created by [Paweł Huryn](https://www.productcompass.pm). Contributions are welcome — whether it's a bug fix, a typo, or a new skill idea.
 
 ## How to Contribute
 
 - **Bugs and small fixes** — open a PR directly.
-- **New skills, commands, or larger changes** — open an issue first so we can discuss the approach.
+- **New skills, workflows, or larger changes** — open an issue first so we can discuss the approach.
 
 ## Guidelines
 
 - Keep PRs focused — one change per PR.
-- Follow existing patterns: skills are nouns (domain knowledge), commands are verbs (workflows).
-- Every skill needs frontmatter with `name` and `description`. Every command needs `description` and `argument-hint`.
-- Skill `name` must match its directory name.
-- No cross-plugin references in commands. Suggest follow-ups in natural language only.
-- Every contributor will be listed publicly.
-- Run the validator before submitting: `python3 validate_plugins.py`
+- **Skills** live in `skills/<domain>/` as markdown files with `name` and `description` frontmatter.
+- **Workflows** live in `.windsurf/workflows/` as markdown files with `description` frontmatter. They are invoked via `/slash-command` in Windsurf Cascade.
+- Workflows reference skills via file paths (e.g., `read skills/pm-execution/create-prd.md`).
+- Suggest follow-up workflows in natural language only.
 
 ## License
 
