@@ -44,8 +44,11 @@ Workflows are invoked via `/slash-command` in Cascade. Each workflow chains one 
 | Competitor intel? | `/competitive-analysis` | Competitive landscape analysis |
 | Feature requests? | `/triage-requests` | Categorize and prioritize a batch of requests |
 | Business model? | `/business-model` | Lean Canvas, BMC, Startup Canvas, or Value Prop |
+| New project? | `/start-project` | Full knowledge base: strategy, PRD, personas, GTM, tech specs, and more |
 
-## All 36 Workflows
+
+### Project Kickoff
+- `/start-project` — Analyze a project idea and generate a full knowledge base (15 docs) in `NewProjectDetails/`
 
 ### Product Discovery
 - `/discover` — Full discovery cycle
@@ -98,6 +101,10 @@ Workflows are invoked via `/slash-command` in Cascade. Each workflow chains one 
 - `/draft-nda` — Non-Disclosure Agreement
 - `/privacy-policy` — Privacy policy (GDPR/CCPA)
 - `/proofread` — Grammar, logic, and flow check
+
+## All 37 Workflows
+
+*(Note: The workflow count increased from 36 to 37 with the addition of `/start-project`.)*
 
 ## Tips for Best Results
 

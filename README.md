@@ -37,11 +37,23 @@ git clone https://github.com/phuryn/pm-skills.git
 ```
 
 The key directories:
-- **`.windsurf/workflows/`** — 36 slash-command workflows (invoked via `/command-name` in Cascade)
+- **`.windsurf/workflows/`** — 37 slash-command workflows (invoked via `/command-name` in Cascade)
 - **`.windsurf/rules/`** — Global context that tells Cascade about the PM skills system
 - **`skills/`** — 65 domain-knowledge skill files organized by PM domain
 
 Cascade will automatically detect the workflows and make them available as `/slash-commands`.
+
+---
+
+## Quick Start
+
+The most powerful workflow to begin with:
+
+```
+/start-project AI-powered meal planning app for busy parents
+```
+
+This generates **15 comprehensive knowledge-base documents** in `NewProjectDetails/` — covering strategy, PRD, personas, competitive analysis, tech requirements, UI/UX guidelines, GTM, pricing, roadmap, and more. Windsurf uses these files as the source of truth when you later ask it to code and build the product.
 
 ---
 
